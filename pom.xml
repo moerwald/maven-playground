@@ -6,6 +6,9 @@
     <groupId>moerwald</groupId>
     <artifactId>hello-world</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <scm>
+        <connection>git:git://github.com/moerwald/maven-playground.git</connection>
+    </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
