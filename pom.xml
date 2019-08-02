@@ -20,5 +20,19 @@
             <version>3.8.1</version>
         </dependency>
     </dependencies>
+
+    <!-- Deploy to: -->
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>heinzhuber333-artifactory-primary-0-releases</name>
+            <url>https://heinzhuber333.jfrog.io/heinzhuber333/my-libs-snapshot-local-virtual</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>heinzhuber333-artifactory-primary-0-snapshots</name>
+            <url>https://heinzhuber333.jfrog.io/heinzhuber333/my-libs-snapshot-local-virtual</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
 
