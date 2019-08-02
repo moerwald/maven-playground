@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>moerwald</groupId>
+    <groupId>com.company</groupId>
     <artifactId>hello-world</artifactId>
     <version>0.2.9-SNAPSHOT</version>
     <scm>
@@ -28,12 +28,12 @@
         <repository>
             <id>central</id>
             <name>heinzhuber333-artifactory-primary-0-releases</name>
-            <url>https://heinzhuber333.jfrog.io/heinzhuber333/moerwald-test</url>
+            <url>https://heinzhuber333.jfrog.io/heinzhuber333/deploy-local-release</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>heinzhuber333-artifactory-primary-0-snapshots</name>
-            <url>https://heinzhuber333.jfrog.io/heinzhuber333/moerwald-test</url>
+            <url>https://heinzhuber333.jfrog.io/heinzhuber333/deploy-local-snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
