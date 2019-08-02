@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>moerwald</groupId>
     <artifactId>hello-world</artifactId>
-    <version>0.2.1-SNAPSHOT</version>
+    <version>0.2.8-SNAPSHOT</version>
     <scm>
         <connection>scm:git:https://github.com/moerwald/maven-playground.git</connection>
       <tag>hello-world-0.1.l</tag>
@@ -27,13 +27,13 @@
     <distributionManagement>
         <repository>
             <id>central</id>
-            <name>heinzhuber333-artifactory-primary-0-release</name>
-            <url>https://heinzhuber333.jfrog.io/heinzhuber333/my-libs-release-local-virtual</url>
+            <name>heinzhuber333-artifactory-primary-0-releases</name>
+            <url>https://heinzhuber333.jfrog.io/heinzhuber333/moerwald-test</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>heinzhuber333-artifactory-primary-0-snapshots</name>
-            <url>https://heinzhuber333.jfrog.io/heinzhuber333/my-libs-snapshot-local-virtual</url>
+            <url>https://heinzhuber333.jfrog.io/heinzhuber333/moerwald-test</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
