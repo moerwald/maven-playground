@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>moerwald</groupId>
     <artifactId>hello-world</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1-SNAPSHOT</version>
     <scm>
         <connection>scm:git:https://github.com/moerwald/maven-playground.git</connection>
-      <tag>hello-world-0.2.0</tag>
+      <tag>hello-world-0.1.l</tag>
   </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
